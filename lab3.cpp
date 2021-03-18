@@ -18,14 +18,15 @@ using namespace std;
 
 
 /* screen ( integer) coordinate */
-const int iXmax = 800;
-const int iYmax = 800;
+const int iXmax = 1024;
+const int iYmax = 1024;
 
 
+unsigned char color[iXmax][iYmax][3];
 
+unsigned char colorTheme[][3] = {{191, 228, 118}};
 
-
-
+int themeId = 0;
 
 int main(int ac, char ** av)
 
